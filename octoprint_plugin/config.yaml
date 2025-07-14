@@ -1,0 +1,11 @@
+controls:
+  - name: Level bed
+    children:
+      - name: Build mesh
+        commands:
+          - G29
+        
+      - name: Open corner adjustment
+        commands:
+          - G25
+          
