@@ -19,7 +19,7 @@ class HelloWorldPlugin(octoprint.plugin.StartupPlugin,
     def get_template_configs(self):
         return [
             
-            dict(type="control",template="plugin_control.jnija2", custom_bindings=False)
+            dict(type="control",template="plugin_control.jija2", custom_bindings=False)
         ]
 __plugin_name__ = "plugin"
 __plugin_pythoncompat__ = ">=3.7,<4"
