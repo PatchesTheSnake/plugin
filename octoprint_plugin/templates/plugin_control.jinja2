@@ -1,18 +1,19 @@
-<div  class="row-fluid">
+<div id="control_plugin_plugin">
+    <div class="row-fluid">
         <div class="span12">
             <div class="well">
                 <legend>Your Plugin Control Panel</legend>
                 <div class="control-group">
                     <label class="control-label" for="your_setting">Your Setting:</label>
                     <div class="controls">
-                         <input type="text" id="your_setting" data-bind="value: yourSetting" />
+                        <input type="text" id="your_setting" data-bind="value: yourSetting" />
                     </div>
                 </div>
-                 <div class="control-group">
-                     <label class="control-label" for="your_observable">Your Observable Value:</label>
-                     <div class="controls">
+                <div class="control-group">
+                    <label class="control-label" for="your_observable">Your Observable Value:</label>
+                    <div class="controls">
                         <span data-bind="text: yourObservable"></span>
-                     </div>
+                    </div>
                 </div>
                 <div class="form-actions">
                     <button type="button" class="btn btn-primary" data-bind="click: callServerSideFunction">Call Server Function</button>
@@ -20,3 +21,4 @@
             </div>
         </div>
     </div>
+</div>

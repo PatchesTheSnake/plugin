@@ -8,7 +8,7 @@ $(function() {
       function PluginViewModel(parameters) {
             var self = this;
             // Inject settings and other parameters from OctoPrint
-            self.settings = parameters.settings;
+           self.settingsViewModel = parameters.settingsViewModel;
 
             // Your plugin's settings, if any
             self.yourSetting = ko.observable();
